@@ -28,6 +28,15 @@ function makeGrid(e) {
     // Loop for creating the cells
     for (let x = 0; x < cells; x++) {
       let cell = row.insertCell(x);
+
+      // Add click event listner to each cell
+      cell.addEventListener("click", function () {
+        // Reserve the color picker every cell click
+        let colorVal = COLOR_PICKER.value;
+
+        // Change the background of each cell when click on it to the reserved color
+        this.style.backgroundColor = colorVal;
+      });
     }
   }
 }

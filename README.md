@@ -1,12 +1,2 @@
-# Pixel Art Maker Project
-
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
-## Instructions
-
-To get started, open `designs.js` and start building out the app's functionality.
-
-
+# Pixel-Art-Maker
+Small script for creating a table grid with the possibility to color each cell's background
